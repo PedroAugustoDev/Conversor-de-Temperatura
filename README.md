@@ -6,3 +6,5 @@
 <img alt="Git license" src="https://img.shields.io/github/license/PedroAugustoDev/Conversor-de-Temperatura">
 
 <a href="https://openjfx.io/">🔗JavaFX doc</a>
+
+<p align="center">Para testá-lo, execute o arquivo .jar no diretório https://github.com/PedroAugustoDev/Conversor-de-Temperatura/tree/main/Converter/out/artifacts/Conversor_jar  execute no CMD ou no PS com o comando java -jar Converter.jar</p>
