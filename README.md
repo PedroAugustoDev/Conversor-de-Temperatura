@@ -7,4 +7,4 @@
 
 <a href="https://openjfx.io/">🔗JavaFX doc</a>
 
-<p align="center">Para testá-lo, execute o arquivo .jar no diretório https://github.com/PedroAugustoDev/Conversor-de-Temperatura/tree/main/Converter/out/artifacts/Conversor_jar  execute no CMD ou no PS com o comando java -jar Converter.jar</p>
+<p align="center">Para testá-lo, execute o arquivo .jar no diretório https://github.com/PedroAugustoDev/Conversor-de-Temperatura/blob/main/Converter/out/artifacts/Conversor_jar/Converter.jar ou <a class="download" href="https://github.com/PedroAugustoDev/Conversor-de-Temperatura/blob/main/Converter/out/artifacts/Conversor_jar/Converter.jar">clique aqui</a>. execute no CMD ou no PS com o comando java -jar Converter.jar</p>
