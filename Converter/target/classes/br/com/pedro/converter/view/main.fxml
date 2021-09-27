@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.pedro.converter.controller.MainController">
+   <children>
+      <AnchorPane prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #4A148C; -fx-background-radius: 20 20 0 0;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox fx:id="closeCircle" alignment="CENTER" layoutX="347.0" layoutY="13.0" onMouseClicked="#handlerEventButtonExit" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #7C43BD; -fx-background-radius: 50%;" styleClass="closeBox">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <FontAwesomeIcon fill="#FFF" glyphName="CLOSE" size="14" textAlignment="CENTER" />
+            </HBox>
+            <HBox fx:id="configCircle" alignment="CENTER" layoutX="314.0" layoutY="13.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #7C43BD; -fx-background-radius: 50%;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <FontAwesomeIcon fill="#FFF" glyphName="GEAR" size="14" textAlignment="CENTER" />
+            </HBox>
+            <Label layoutX="34.0" layoutY="17.0" styleClass="title_app" text="Conversor" textFill="WHITE">
+               <font>
+                  <Font name="JetBrains Mono" size="14.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="63.0" prefHeight="442.0" prefWidth="400.0" style="-fx-background-color: #EFEFEF; -fx-background-radius: 0 0 20 20;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="165.0" prefWidth="400.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="165.0" prefWidth="165.0">
+                     <children>
+                        <TextField fx:id="mainInput" alignment="CENTER" focusTraversable="false" onKeyTyped="#handlerEventInput" promptText="°C" style="-fx-background-color: #EFEFEF;  -fx-border-color:  #4A148C; -fx-border-width: 0 0 2 0;" styleClass="main_input">
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor></TextField>
+                        <Label fx:id="labelInputMain" alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="166.0" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+                           <font>
+                              <Font name="JetBrains Mono Regular" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children></HBox>
+            <Label fx:id="mainLabel" alignment="CENTER" layoutX="24.0" layoutY="148.0" prefHeight="35.0" prefWidth="353.0" textAlignment="CENTER" wrapText="true">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+             <VBox alignment="CENTER_RIGHT" layoutY="333.0" prefHeight="69.0" prefWidth="400.0" style="-fx-background-radius: 0 0 20 20; -fx-background-color: linear-gradient(to right, #4a148c, #572198, #632ca4, #6f38b1, #7c43bd);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                 <ChoiceBox fx:id="choiceBox" focusTraversable="false" prefHeight="0.0" prefWidth="131.0">
+                    <VBox.margin>
+                        <Insets right="30.0" />
+                    </VBox.margin>
+                 </ChoiceBox>
+             </VBox>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+.title_app, .label {
+   -fx-font-family: 'JetBrains Mono', Arial;
+   -fx-text-align: center;
+}
+
+TextField {
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
